@@ -174,9 +174,10 @@ footer {
 .flex-item {
 	margin: auto;
 }
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-img {
-	max-widht: auto;
-	height: auto;
+/* Responsive layout - makes the images smaller, on small screens */
+@media (max-width: 600px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
