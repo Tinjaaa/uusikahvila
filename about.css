@@ -171,3 +171,6 @@ footer {
   text-align: center;
   color: white;
 }
+.flex-item {
+	margin: auto;
+}
